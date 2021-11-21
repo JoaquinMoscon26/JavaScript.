@@ -10,12 +10,19 @@ if(boton_rojo.addEventListener("click")){
     if(boton_amarillo=addEventListener("click")){
 
         color_pagina.classList.remove("rojo");
-        color_pagina.classList.add("amarillo");
+        
     }else{
         if(boton_azul=addEventListener("click")){
+
             color_pagina.classList.remove("amarillo");
             color_pagina.classList.add("azul");
         }
     }
 
+}
+
+setTimeout (mifuncion, 4000);
+
+function cambiarColor(){
+    color_pagina.innerHTML=color_pagina.classList.add("amarillo");
 }

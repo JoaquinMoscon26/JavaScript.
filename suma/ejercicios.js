@@ -3,6 +3,7 @@ console.log("vinculado")
 const n1 = document.getElementById("numero1");
 const n2 = document.getElementById("numero2");
 const boton = document.getElementById("boton_sumar");
+
 var sumando=0
 /*ESCUCHAR AL EVENTO: CLICK*/
 
