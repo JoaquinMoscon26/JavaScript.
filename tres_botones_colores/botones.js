@@ -16,6 +16,8 @@ boton_azul.addEventListener("click", cambiarColor3)
 function cambiarColor() {
 
     color_pagina.classList.add("rojo");
+    color_pagina.classList.remove("amarillo");
+    color_pagina.classList.remove("amarillo");
 
 
 }
@@ -23,7 +25,8 @@ function cambiarColor() {
 function cambiarColor2() {
 
     color_pagina.classList.add("amarillo");
-
+    color_pagina.classList.remove("rojo");
+    color_pagina.classList.remove("azul");
 
 }
 
@@ -31,6 +34,8 @@ function cambiarColor2() {
 function cambiarColor3() {
 
     color_pagina.classList.add("azul");
+    color_pagina.classList.remove("rojo");
+    color_pagina.classList.remove("amarillo");
 
 
 }
