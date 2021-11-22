@@ -13,7 +13,7 @@ boton.addEventListener("click", promediando)
 function promediando() {
 
     promediar = (parseInt(nota1.value) + parseInt(nota2.value) + parseInt(nota3.value)) / 3
-    document.getElementById("promedio").innerHTML = promediar;
+    document.getElementById("promedio").innerHTML = "nota final: " + promediar;
 
     if (promediar >= 7) {
         apro_desapro.innerHTML = "El/la estudiante aprobó"
